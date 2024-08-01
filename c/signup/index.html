@@ -1,0 +1,68 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta id=redirect http-equiv="refresh" content="3; url=https://14a8cd7b.sibforms.com/serve/MUIFAFfXNhW351xzkQ_trE_-Ba6nH533By_--xsiqBQr_uIRMGFjvd6j_Gg4_L-OlLqdUmg6BWLisq0k7WSIaaLEjIzu2mD6orIXKKQwwyAvkLhQTZHxIEKV2zHEJ9jv3xq3HcdenwpFWjMcmJ1HwsPtvMiv3n8tV7jZw38hZ-U-xLZXzLfhSTUcybgJFE0z5LBYiAvYb9CGWFH4" />
+
+  <meta charset="utf-8">
+  <title>Redirect</title>
+  <meta name="description" content="Redirect">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!--Insert OG Markup -->
+  <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:title" content="join ccwwa" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:description" content="join ccwwa" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://ccwa.com/c/signup/index.jpg" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://ccwa.com#signup" />
+  <!--Insert Twitter Card Markup -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@ccwwa" />
+  <meta name="twitter:domain" content="https://ccwwa.com" />
+  <meta name="twitter:title" content="join us" />
+  <meta name="twitter:description" content="ccwwa signup" />
+  <meta name="twitter:image" content="https://ccwwa.com/c/signup/index.jpg" />
+
+  <meta name="referrer" content="no-referrer-when-downgrade"><!-- important https://web.dev/referrer-best-practices/ -->
+  <meta name="theme-color" content="#fafafa">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body style="background:#c50000;color:white;font-family:Montserrat,san-serif;margin:0;">
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+	<style>
+	div {display:flex;flex-direction:column;justify-content:center;align-items:center;flex-wrap:wrap;}
+	.hide {display:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+	.unselectable {-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+	</style>
+
+	<!-- header -->
+	<div style="background:#c50000;color:white;padding:1em;text-align:center;flex-direction:row;justify-content:space-evenly;">
+
+		<div style="font-size:3em;">ccwwa.com</div>
+
+		<div style="font-size:1.25em;">Chines Culture World Wide Alliance</div>
+
+	</div>
+
+	<p style=text-align:center;margin:1em;>
+		This page should redirect to <a id=link style=font-size:small;word-break:break-all; href=test>link</a>
+	</p>
+	<script>
+		var tag = document.getElementById( 'redirect' )
+		var url = tag.attributes.content.textContent.replace( /^.*http/ , 'http' )
+		var link = document.getElementById( 'link' )
+		link.href = url
+		link.textContent = url
+	</script>
+</body>
+
+</html>
