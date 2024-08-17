@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta id=redirect http-equiv="refresh" content="3; url=https://14a8cd7b.sibforms.com/serve/MUIFABNT4vKneHx2uauXJj0mbFNLLbtmemiNmLL3OKAjlZm75h1TT6ZNNh9HTcpaP1j_PHejqJrI8x6JIhl43DwXGkFDFP6Rs9F6GXqMi0RvMHC5ndXpstL6r2M6Xsa8wBAwKBuJa2YgTSk9Bg9t5KGyeXWnR4Es4JDapJzmez_tHu-oeM5E0GmDbbFt_qaDRIPS_vy9yCgFZvoY" />
+  <meta id=redirect http-equiv="refresh" content="5; url=https://14a8cd7b.sibforms.com/serve/MUIFABNT4vKneHx2uauXJj0mbFNLLbtmemiNmLL3OKAjlZm75h1TT6ZNNh9HTcpaP1j_PHejqJrI8x6JIhl43DwXGkFDFP6Rs9F6GXqMi0RvMHC5ndXpstL6r2M6Xsa8wBAwKBuJa2YgTSk9Bg9t5KGyeXWnR4Es4JDapJzmez_tHu-oeM5E0GmDbbFt_qaDRIPS_vy9yCgFZvoY" />
 
   <meta charset="utf-8">
   <title>網連器</title>
@@ -30,10 +30,9 @@
   <meta name="referrer" content="no-referrer-when-downgrade"><!-- important https://web.dev/referrer-best-practices/ -->
   <meta name="theme-color" content="#fafafa">
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
-<body style="background:#c50000;color:white;font-family:Montserrat,san-serif;margin:0;">
+<body style="background:#c50000;color:white;text-shadow:2px 2px 1px darkred;font-family:serif;margin:0;">
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -45,23 +44,28 @@
 	</style>
 
 	<!-- header -->
-	<div style="background:#c50000;color:white;padding:1em;text-align:center;flex-direction:row;justify-content:space-evenly;">
+	<div style="color:white;padding:1em;text-align:center;flex-direction:column;justify-content:space-evenly;">
 
-		<div style="font-size:3em;">ccwwa.net</div>
+		<div style="font-size:2em;">全球中華文化大聯盟</div>
+		<div style="font-size:1.0em;">Chinese Culture World Wide Alliance</div>
+		<div style="font-size:1.5em;">ccwwa.net</div>
+		<div style="filter:drop-shadow(-1px 6px 3px darkred);">
+			<img src="./index.jpg" style="width:100%;margin:1em 0 1em 0;clip-path:circle();" />
+		</div>
+		<div style="font-size:3em;">歡迎您參加</div>
+		<div style="font-size:3em;">慶祝中華人民共和國成立 75 周年大型活動</div>
 
-		<div style="font-size:1.25em;">Chinese Culture World Wide Alliance</div>
-
+		<div style=text-align:center;margin:1em;font-size:1.5em;>
+			現在帶您進入<a id=link style=color:white;word-break:break-all; href=test>註冊頁面</a>
+		</div>
 	</div>
 
-	<p style=text-align:center;margin:1em;>
-		This page should redirect to <a id=link style=font-size:small;word-break:break-all; href=test>link</a>
-	</p>
 	<script>
 		var tag = document.getElementById( 'redirect' )
 		var url = tag.attributes.content.textContent.replace( /^.*http/ , 'http' )
 		var link = document.getElementById( 'link' )
 		link.href = url
-		link.textContent = url
+		//link.textContent = url
 	</script>
 </body>
 
