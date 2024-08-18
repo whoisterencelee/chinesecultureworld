@@ -30,7 +30,7 @@
 
 </head>
 
-<body style="background:#c50000;color:white;text-shadow:2px 2px 1px darkred;font-family:serif;margin:0;">
+<body style="background:#c50000;color:gold;text-shadow:2px 2px 1px darkred;font-family:serif;margin:1em;border:3px solid gold;">
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -42,13 +42,22 @@
 	</style>
 
 	<!-- header -->
-	<div style="color:white;padding:1em;text-align:center;flex-direction:column;justify-content:space-evenly;">
+	<div style="padding:1em;text-align:center;flex-direction:column;justify-content:space-evenly;">
 
 		<div style="font-size:2em;">全球中華文化大聯盟</div>
 		<div style="font-size:1.0em;">Chinese Culture Worldwide Alliance</div>
 		<div style="font-size:1.5em;margin-bottom:1em;">ccwwa.net</div>
-		<div style="font-size:1.5em;">你的資料已成功提交!</div>
-		<div style="font-size:1.5em;margin-bottom:1em;">謝謝!</div>
+		<div id=message style="position:fixed;top:-5em;background:white;color:red;padding:1em;text-shadow:none;border-radius:0 0 1em 1em ;">
+			<style>
+			#message { animation-duration: 10s; animation-name: slideout; }
+			@keyframes slideout {
+				50% { translate: 0 5em; }
+				100% { translate: 0 0; }
+			}
+			</style>
+			<div style="font-size:1.0em;">你的資料已成功提交</div>
+			<div style="font-size:1.0em;">謝謝!</div>
+		</div>
 		<div style="font-size:2em;">慶祝</div>
 		<div style="font-size:2em;">中華人民共和國</div>
 		<div style="font-size:2em;">成立 75 周年</div>
