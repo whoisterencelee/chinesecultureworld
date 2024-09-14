@@ -2,10 +2,8 @@
 <html class="no-js" lang="">
 
 <head>
-	<meta id=redirect http-equiv="refresh" content="5; url=https://14a8cd7b.sibforms.com/serve/MUIFANaK64c0hzhYeOXaG2kNb_RWrw2PMUdSXeuwqT6sDg7zjNtgqSyoyTPs5QU6Y8yndz2S3gzQTFrOeFsR6bQSBaYckPN-2vSTsfYoJGt41cwrnlQuH4wXOY6tV94wh63s85zpMBAGfsgJt5Qwc4CureVBei83GF92HvpQ5NRtn2SE3YuyciT-RTqiqOyegNZyVIz3IfFn7YSP" />
-
   <meta charset="utf-8">
-  <title>網連器</title>
+  <title>网连器</title>
   <meta name="description" content="Redirect">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,16 +13,16 @@
 
   <!--Insert OG Markup -->
   <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
-  <meta prefix="og: http://ogp.me/ns#" property="og:title" content="參加CCWWA活動" />
-  <meta prefix="og: http://ogp.me/ns#" property="og:description" content="慶祝中華人民共和國成立 75 周年紀念" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:title" content="参加CCWWA活动" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:description" content="庆祝中华人民共和国成立 75 周年纪念" />
   <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://linkedwork.com/chinesecultureworld/c/241019a/index.jpg" />
   <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://linkedwork.com/chinesecultureworld/c/241019a" />
   <!--Insert Twitter Card Markup -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@ccwwa" />
   <meta name="twitter:domain" content="https://ccwwa.net" />
-  <meta name="twitter:title" content="參加CCWWA活動" />
-  <meta name="twitter:description" content="慶祝中華人民共和國成立 75 周年紀念" />
+  <meta name="twitter:title" content="参加CCWWA活动" />
+  <meta name="twitter:description" content="庆祝中华人民共和国成立 75 周年纪念" />
   <meta name="twitter:image" content="https://linkedwork.com/chinesecultureworld/c/241019a/index.jpg" />
 
   <meta name="referrer" content="no-referrer-when-downgrade"><!-- important https://web.dev/referrer-best-practices/ -->
@@ -32,7 +30,7 @@
 
 </head>
 
-<body style="background:#c50000;color:white;text-shadow:2px 2px 1px darkred;font-family:serif;margin:0;">
+<body style="background:#c50000;color:gold;text-shadow:2px 2px 1px darkred;font-family:serif;margin:1em;border:3px solid gold;">
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -44,32 +42,32 @@
 	</style>
 
 	<!-- header -->
-	<div style="color:white;padding:1em;text-align:center;flex-direction:column;justify-content:space-evenly;">
+	<div style="padding:1em;text-align:center;flex-direction:column;justify-content:space-evenly;">
 
-		<div style="font-size:2em;">全球中華文化大聯盟</div>
+		<div style="font-size:2em;">全球中华文化大联盟</div>
 		<div style="font-size:1.0em;">Chinese Culture Worldwide Alliance</div>
-		<div style="font-size:1.5em;">ccwwa.net</div>
+		<div style="font-size:1.5em;margin-bottom:1em;">ccwwa.net</div>
+		<div id=message style="position:fixed;top:-5em;background:white;color:red;padding:1em;text-shadow:none;border-radius:0 0 1em 1em ;">
+			<style>
+			#message { animation-duration: 10s; animation-name: slideout; }
+			@keyframes slideout {
+				50% { translate: 0 5em; }
+				100% { translate: 0 0; }
+			}
+			</style>
+			<div style="font-size:1.0em;">你的资料已成功提交</div>
+			<div style="font-size:1.0em;">谢谢!</div>
+		</div>
+		<div style="font-size:2em;">庆祝</div>
+		<div style="font-size:2em;">中华人民共和国</div>
+		<div style="font-size:2em;">成立 75 周年</div>
+		<div style="font-size:2em;">纪念</div>
 		<div style="filter:drop-shadow(-1px 6px 3px darkred);">
-			<img src="./index.jpg" style="width:100%;max-height:30vh;margin:1em 0 1em 0;clip-path:circle();" />
+			<img src="./success.jpg" style="width:100%;margin:1em 0 1em 0;" />
 		</div>
-		<div style="font-size:3em;">歡迎您參加</div>
-		<div style="font-size:3em;">慶祝</div>
-		<div style="font-size:3em;">中華人民共和國</div>
-		<div style="font-size:3em;">成立 75 周年</div>
-		<div style="font-size:3em;">紀念</div>
 
-		<div style=text-align:center;margin:1em;font-size:1.5em;>
-			現在帶您進入<a id=link style=color:white;word-break:break-all; href=test>註冊頁面</a>
-		</div>
 	</div>
 
-	<script>
-		var tag = document.getElementById( 'redirect' )
-		var url = tag.attributes.content.textContent.replace( /^.*http/ , 'http' )
-		var link = document.getElementById( 'link' )
-		link.href = url
-		//link.textContent = url
-	</script>
 </body>
 
 </html>
